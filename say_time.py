@@ -1,9 +1,14 @@
 #!/usr/bin/python
+#TO run 
+# 1) chmod +x say_time.py
+# 2) ./say_time.py /dev/tty.usbmodem1421 9600 ,change port accordingly
 
 import serial
 from sys import argv
 from os import system
 from time import sleep
+
+#Supply com port and baud rate as arguments
 
 com = argv[1]
 baud = argv[2]

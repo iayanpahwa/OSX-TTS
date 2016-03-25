@@ -1,6 +1,7 @@
 //./say_time.py /dev/tty.usbmodem1421 9600
+//Arduino code
 
-
+//Button pins
 const int buttonPin1 = 2;
 const int buttonPin2 = 3;
 const int ledPin =  13;      // the number of the LED pin
